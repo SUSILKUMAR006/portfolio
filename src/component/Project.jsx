@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react'
+import instagram from '../assets/instagram-logo.avif'; // Sample project data - Replace with your actual projects
 
 const ProjectCard = ({ title, description, image, technologies, liveLink, githubLink, isVisible, index }) => {
   return (
@@ -115,12 +116,11 @@ const Project = () => {
     };
   }, []);
 
-  // Sample project data - Replace with your actual projects
   const projects = [
     {
       title: "Instagram frontend clone",
-      description: "A responsive Instagram frontend clone developed using React. It recreates core UI components such as the feed, stories, profile layout, and navigation, focusing on component-based architecture, state management, and a smooth user experience.",
-      image: "https://images.unsplash.com/photo-1557821552-17105176677c?w=800&h=600&fit=crop",
+      description: "Built an Instagram frontend clone using React with reusable components and responsive UI design.",
+      image: instagram,
       technologies: ["React", "Tailwind CSS", "JavaScript"],
       liveLink: "https://instagram-frontend1-l856.onrender.com",
       githubLink: "https://github.com/SUSILKUMAR006/Instagram-frontend"
