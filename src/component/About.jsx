@@ -1,6 +1,8 @@
 import React, { useState, useEffect, useRef } from 'react'
 import img from '../assets/img.jpg'
 import { HoverBorderGradientDemo } from '../components/HoverBorderGradientDemo'
+import ProfileImage from "../assets/Susil.png";
+
 
 // Simple Elegant Counter
 const ElegantCounter = ({ end, duration = 2000, suffix = "", label, color, isVisible }) => {
@@ -129,7 +131,7 @@ const About = () => {
                             border-2 border-white/10 group-hover/img:border-white/30 
                             transition-all duration-500'>
                             <img
-                                src='https://i.pinimg.com/736x/d6/02/fb/d602fbe1c7933fe7a86c3981936114cc.jpg'
+                                src={ProfileImage}
                                 alt='Profile'
                                 className='w-64 h-64 sm:w-80 sm:h-80 lg:w-96 lg:h-96 object-cover 
                                     group-hover/img:scale-105 transition-transform duration-700'

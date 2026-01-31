@@ -1,6 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import Cursor from "./Cursor";
+import ProfileImage from "../assets/Susil.png";
 
 const containerVariants = {
     hidden: {},
@@ -142,7 +143,7 @@ const Home = () => {
                                     rounded-full blur opacity-50" />
                                 <img
                                     className="relative w-32 h-32 lg:w-44 lg:h-44 rounded-full object-cover border-4 border-white/20"
-                                    src="https://i.pinimg.com/736x/d6/02/fb/d602fbe1c7933fe7a86c3981936114cc.jpg"
+                                    src={ProfileImage}
                                     alt="Profile"
                                 />
                             </div>
