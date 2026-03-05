@@ -9,7 +9,7 @@ const Footer = () => {
                     {/* Brand Section */}
                     <div className='md:col-span-2'>
                         <h3 className='text-2xl font-bold bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent mb-4'>
-                            Your Name
+                            Susilkumar S
                         </h3>
                         <p className='text-gray-400 text-sm mb-4'>
                             Full Stack Developer passionate about creating beautiful and functional web applications.

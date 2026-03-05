@@ -109,7 +109,7 @@ const Contact = () => {
                   </svg>
                 }
                 title="Email"
-                value="your.email@example.com"
+                value="susilkumar2006nano@gmail.com"
                 delay={600}
                 color="#3b82f6"
               />
@@ -121,7 +121,7 @@ const Contact = () => {
                   </svg>
                 }
                 title="Phone"
-                value="+1 234 567 8900"
+                value="+91 9659390517"
                 delay={700}
                 color="#10b981"
               />
@@ -135,7 +135,7 @@ const Contact = () => {
                   </svg>
                 }
                 title="Location"
-                value="Your City, Country"
+                value="Coimbatore, Tamil Nadu, India"
                 delay={800}
                 color="#ef4444"
               />
@@ -146,7 +146,7 @@ const Contact = () => {
               <p className='text-gray-400 text-sm mb-4'>Follow me on social media</p>
               <div className='grid grid-cols-2 gap-3'>
                 {/* GitHub */}
-                <a href='https://github.com' target='_blank' rel='noopener noreferrer'
+                <a href='https://github.com/SUSILKUMAR006' target='_blank' rel='noopener noreferrer'
                   className='group relative'>
                   <div className='absolute -inset-0.5 bg-gradient-to-r from-blue-600 to-purple-600 
                                         rounded-lg blur opacity-0 group-hover:opacity-75 transition duration-500' />
@@ -163,7 +163,7 @@ const Contact = () => {
                 </a>
 
                 {/* LinkedIn */}
-                <a href='https://linkedin.com' target='_blank' rel='noopener noreferrer'
+                <a href='https://www.linkedin.com/in/susilkumar006/' target='_blank' rel='noopener noreferrer'
                   className='group relative'>
                   <div className='absolute -inset-0.5 bg-gradient-to-r from-blue-600 to-purple-600 
                                         rounded-lg blur opacity-0 group-hover:opacity-75 transition duration-500' />
@@ -180,7 +180,7 @@ const Contact = () => {
                 </a>
 
                 {/* Twitter */}
-                <a href='https://twitter.com' target='_blank' rel='noopener noreferrer'
+                <a href='https://leetcode.com/u/s_susilkumar/' target='_blank' rel='noopener noreferrer'
                   className='group relative'>
                   <div className='absolute -inset-0.5 bg-gradient-to-r from-blue-600 to-purple-600 
                                         rounded-lg blur opacity-0 group-hover:opacity-75 transition duration-500' />
@@ -189,10 +189,14 @@ const Contact = () => {
                                         hover:bg-white/10 hover:border-white/30
                                         flex items-center gap-3
                                         transition-all duration-300 group-hover:scale-105'>
-                    <svg className='w-6 h-6' fill='#1da1f2' viewBox='0 0 24 24'>
-                      <path d='M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z' />
-                    </svg>
-                    <span className='text-white text-sm font-medium'>Twitter</span>
+                   
+                            <svg
+                                className='w-6 h-6'
+                                fill='#FFA116'
+                                viewBox='0 0 24 24'>
+                                <path d="M16.102 17.93l-2.697 2.607c-.466.467-1.111.662-1.823.662s-1.357-.195-1.824-.662l-4.332-4.363c-.467-.467-.702-1.15-.702-1.863s.235-1.357.702-1.824l4.319-4.38c.467-.467 1.125-.645 1.837-.645s1.357.195 1.823.662l2.697 2.606c.514.515 1.365.497 1.9-.038.535-.536.553-1.387.039-1.901l-2.609-2.636a5.055 5.055 0 0 0-2.445-1.337l2.467-2.503c.516-.514.498-1.366-.037-1.901-.535-.535-1.387-.552-1.902-.038l-10.1 10.101c-.981.982-1.494 2.337-1.494 3.835 0 1.498.513 2.895 1.494 3.875l4.347 4.361c.981.979 2.337 1.452 3.834 1.452s2.853-.512 3.835-1.494l2.609-2.637c.514-.514.496-1.365-.039-1.9s-1.386-.553-1.899-.039zM20.811 13.01H10.666c-.702 0-1.27.604-1.27 1.346s.568 1.346 1.27 1.346h10.145c.701 0 1.27-.604 1.27-1.346s-.569-1.346-1.27-1.346z"/>
+                            </svg>
+                    <span className='text-white text-sm font-medium'>Leetcode</span>
                   </div>
                 </a>
 
