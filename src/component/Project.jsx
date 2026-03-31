@@ -119,20 +119,20 @@ const Project = () => {
 
   const projects = [
     {
-      title: "Instagram frontend clone",
-      description: "Built an Instagram frontend clone using React with reusable components and responsive UI design.",
-      image: instagram,
-      technologies: ["React", "Tailwind CSS", "JavaScript"],
-      liveLink: "https://instagram-frontend1-l856.onrender.com",
-      githubLink: "https://github.com/SUSILKUMAR006/Instagram-frontend"
-    },
-    {
       title: "Food Delivery Website",
       description: "An online food ordering website that allows users to browse menus, place orders, and track deliveries in real-time with a simple and user-friendly interface.",
       image: foodOrder,
       technologies: ["React", "Tailwind CSS", "JavaScript"],
       liveLink: "https://fooddelivery-website-5xti.onrender.com/",
       githubLink: "https://github.com/SUSILKUMAR006/FoodDelivery-Website"
+    },
+    {
+      title: "Instagram frontend clone",
+      description: "Built an Instagram frontend clone using React with reusable components and responsive UI design.",
+      image: instagram,
+      technologies: ["React", "Tailwind CSS", "JavaScript"],
+      liveLink: "https://instagram-frontend1-l856.onrender.com",
+      githubLink: "https://github.com/SUSILKUMAR006/Instagram-frontend"
     },
     {
       title: "Social Media Dashboard",
