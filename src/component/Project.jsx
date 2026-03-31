@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react'
-import instagram from '../assets/instagram-logo.avif'; // Sample project data - Replace with your actual projects
+import instagram from '../assets/instagram-logo.avif'; 
+import foodOrder from '../assets/home.png';// Sample project data - Replace with your actual projects
 
 const ProjectCard = ({ title, description, image, technologies, liveLink, githubLink, isVisible, index }) => {
   return (
@@ -128,7 +129,7 @@ const Project = () => {
     {
       title: "Food Delivery Website",
       description: "An online food ordering website that allows users to browse menus, place orders, and track deliveries in real-time with a simple and user-friendly interface.",
-      image: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&h=600&fit=crop",
+      image: foodOrder,
       technologies: ["React", "Tailwind CSS", "JavaScript"],
       liveLink: "https://fooddelivery-website-5xti.onrender.com/",
       githubLink: "https://github.com/SUSILKUMAR006/FoodDelivery-Website"
