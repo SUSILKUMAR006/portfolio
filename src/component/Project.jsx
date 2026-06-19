@@ -135,12 +135,12 @@ const Project = () => {
       githubLink: "https://github.com/SUSILKUMAR006/Instagram-frontend"
     },
     {
-      title: "Social Media Dashboard",
-      description: "Analytics dashboard for social media metrics with interactive charts, real-time data visualization, and export functionality.",
+      title: "Farm Arise - Farming based Website",
+      description: "FarmArise is a smart farming platform that connects farmers and buyers, providing crop insights, market prices, and farming support.",
       image: farmArise,
-      technologies: ["React", "Chart.js", "Express", "PostgreSQL"],
-      liveLink: "#",
-      githubLink: "#"
+      technologies: ["React js", "Tailwind CSS", "Express", "MongoDB" , "Node js"],
+      liveLink: "https://farmarise.onrender.com/",
+      githubLink: "https://github.com/SUSILKUMAR006/FarmArise"
     },
     {
       title: "Weather Forecast App",
