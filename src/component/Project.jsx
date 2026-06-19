@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react'
 import instagram from '../assets/instagram-logo.avif'; 
 import foodOrder from '../assets/home.png';// Sample project data - Replace with your actual projects
-
+import farmArise from '../assets/Farm Arise';
 const ProjectCard = ({ title, description, image, technologies, liveLink, githubLink, isVisible, index }) => {
   return (
     <div className={`group cursor-pointer transition-all duration-700 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}
@@ -137,7 +137,7 @@ const Project = () => {
     {
       title: "Social Media Dashboard",
       description: "Analytics dashboard for social media metrics with interactive charts, real-time data visualization, and export functionality.",
-      image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=600&fit=crop",
+      image: farmArise,
       technologies: ["React", "Chart.js", "Express", "PostgreSQL"],
       liveLink: "#",
       githubLink: "#"
