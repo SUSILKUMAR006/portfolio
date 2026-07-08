@@ -2,6 +2,7 @@ import React, { useState, useEffect, useRef } from 'react'
 import instagram from '../assets/instagram-logo.avif'; 
 import foodOrder from '../assets/home.png';// Sample project data - Replace with your actual projects
 import farmArise from '../assets/Farm Arise.png';
+import Laundry from 'Laundry-Mangement.png';
 const ProjectCard = ({ title, description, image, technologies, liveLink, githubLink, isVisible, index }) => {
   return (
     <div className={`group cursor-pointer transition-all duration-700 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}
@@ -143,12 +144,12 @@ const Project = () => {
       githubLink: "https://github.com/SUSILKUMAR006/Instagram-frontend"
     },
     {
-      title: "Weather Forecast App",
-      description: "Real-time weather application with location-based forecasts, interactive maps, and 7-day weather predictions.",
-      image: "https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?w=800&h=600&fit=crop",
-      technologies: ["React", "OpenWeather API", "Mapbox"],
-      liveLink: "#",
-      githubLink: "#"
+      title: "Laundry Mangement System",
+      description: "A web-based platform that streamlines hostel laundry collection, tracking, and weekly reporting for students and staff.",
+      image:Laundry ,
+      technologies: ["React js", "Tailwind CSS", "Express", "MongoDB" , "Node js"],
+      liveLink: "https://admin-laundry-mangement.onrender.com/#/login",
+      githubLink: "https://github.com/SUSILKUMAR006/Laundry-Mangement"
     },
     {
       title: "Portfolio Website Builder",
