@@ -119,6 +119,14 @@ const Project = () => {
 
   const projects = [
     {
+      title: "Farm Arise - Farming based Website",
+      description: "FarmArise is a smart farming platform that connects farmers and buyers, providing crop insights, market prices, and farming support.",
+      image: farmArise,
+      technologies: ["React js", "Tailwind CSS", "Express", "MongoDB" , "Node js"],
+      liveLink: "https://farmarise.onrender.com/",
+      githubLink: "https://github.com/SUSILKUMAR006/FarmArise"
+    },
+    {
       title: "Food Delivery Website",
       description: "An online food ordering website that allows users to browse menus, place orders, and track deliveries in real-time with a simple and user-friendly interface.",
       image: foodOrder,
@@ -133,14 +141,6 @@ const Project = () => {
       technologies: ["React", "Tailwind CSS", "JavaScript"],
       liveLink: "https://instagram-frontend1-l856.onrender.com",
       githubLink: "https://github.com/SUSILKUMAR006/Instagram-frontend"
-    },
-    {
-      title: "Farm Arise - Farming based Website",
-      description: "FarmArise is a smart farming platform that connects farmers and buyers, providing crop insights, market prices, and farming support.",
-      image: farmArise,
-      technologies: ["React js", "Tailwind CSS", "Express", "MongoDB" , "Node js"],
-      liveLink: "https://farmarise.onrender.com/",
-      githubLink: "https://github.com/SUSILKUMAR006/FarmArise"
     },
     {
       title: "Weather Forecast App",
