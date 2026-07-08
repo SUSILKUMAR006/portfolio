@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef } from 'react'
 import instagram from '../assets/instagram-logo.avif'; 
 import foodOrder from '../assets/home.png';// Sample project data - Replace with your actual projects
 import farmArise from '../assets/Farm Arise.png';
-import Laundry from 'Laundry-Mangement.png';
+import Laundry from '../assets/Laundry-Mangement.png';
 const ProjectCard = ({ title, description, image, technologies, liveLink, githubLink, isVisible, index }) => {
   return (
     <div className={`group cursor-pointer transition-all duration-700 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}
